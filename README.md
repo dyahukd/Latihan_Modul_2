@@ -261,8 +261,11 @@ Setelah dijalankan, program akan menghasilkan empat file:
 4. File `log.txt` berisi urutan penyelesaian thread, yang dalam kasus ini selalu sama karena setiap thread dijalankan secara berurutan, bukan paralel.
 
 **Screenshot Hasil Output:**
-
-
+![Image](https://github.com/user-attachments/assets/ab7c1447-53f7-4b78-8539-58a692f2b049)
+![Image](https://github.com/user-attachments/assets/2f293c0c-2f81-49a5-ba4b-59485180f009)
+![Image](https://github.com/user-attachments/assets/a1bb6e24-7c7f-4aa5-aa79-4db82a09b3cc)
+![Image](https://github.com/user-attachments/assets/06c3dd99-a757-4719-9b0f-f8f9784b578b)
+![Image](https://github.com/user-attachments/assets/aca05470-91a1-411d-b51a-e860cb10603d)
 
 ### 🔹 3. Thread dengan Mutex
 
