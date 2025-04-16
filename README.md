@@ -104,8 +104,6 @@ Saat program mencoba menyalin isinya ke `hai.txt`, proses penyalinan tetap berja
 **Screenshot hasil output:**
 ![Image](https://github.com/user-attachments/assets/03f71206-6555-4489-a464-cc4e9106fa3a)
 ![Image](https://github.com/user-attachments/assets/94e3f253-5cce-4f97-8181-379c6a20cda7)
-![Image](https://github.com/user-attachments/assets/6de0a4e3-d188-466d-a7e7-38704fd28230)
-![Image](https://github.com/user-attachments/assets/42caf5b8-bef7-4bd5-a965-75738e515e33)
 
 ### 🔹 2. Thread
 
