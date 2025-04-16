@@ -102,6 +102,7 @@ Karena file `halo/hai.txt` dibuat dalam mode tulis `("w")` tapi tidak ada data y
 Saat program mencoba menyalin isinya ke `hai.txt`, proses penyalinan tetap berjalan, tapi karena tidak ada isi dalam `halo/hai.txt`, maka `hai.txt` juga menjadi file kosong.
 
 **Screenshot hasil output:**
+
 ![Image](https://github.com/user-attachments/assets/03f71206-6555-4489-a464-cc4e9106fa3a)
 ![Image](https://github.com/user-attachments/assets/94e3f253-5cce-4f97-8181-379c6a20cda7)
 
@@ -261,6 +262,7 @@ Setelah dijalankan, program akan menghasilkan empat file:
 4. File `log.txt` berisi urutan penyelesaian thread, yang dalam kasus ini selalu sama karena setiap thread dijalankan secara berurutan, bukan paralel.
 
 **Screenshot Hasil Output:**
+
 ![Image](https://github.com/user-attachments/assets/ab7c1447-53f7-4b78-8539-58a692f2b049)
 ![Image](https://github.com/user-attachments/assets/2f293c0c-2f81-49a5-ba4b-59485180f009)
 ![Image](https://github.com/user-attachments/assets/a1bb6e24-7c7f-4aa5-aa79-4db82a09b3cc)
@@ -419,6 +421,7 @@ thread 5 count 3
 4. Urutan thread bisa berbeda-beda setiap dijalankan karena eksekusi thread bersifat tidak deterministik.
 
 **Screenshot Hasil Output:**
+
 ![Image](https://github.com/user-attachments/assets/b5b10bdd-a372-45ad-ae1e-42ce2fde2606)
 
 ### 🔹 4. IPC
@@ -606,12 +609,7 @@ Kesimpulan:
 
 **Screenshot Hasil Output:**
 
-
-
-
-
-
-
+![Image](https://github.com/user-attachments/assets/0f8dad78-fd8c-4f09-94d0-a3e3ab9560ba)
 
 ### b. Message Queue
 
@@ -749,13 +747,13 @@ Menghapus message queue dari sistem.
 
 Saat menjalankan `sender.c` :
 ```
-./sender
+./sender_msgq
 Pesan telah dikirim ke message queue: yah belajar ipc mulu
 ```
 
 Saat menjalankan `receiver.c` :
 ```
-./receiver
+./receiver_msgq
 Pesan diterima dari message queue: yah belajar ipc mulu
 ```
 
@@ -767,11 +765,7 @@ Pesan diterima dari message queue: yah belajar ipc mulu
 
 **Screenshot Hasil Output:**
 
-
-
-
-
-
+![Image](https://github.com/user-attachments/assets/89da70bc-ba79-46d5-a8cf-e01f43958a84)
 
 ### c. Pipe dengan `fork()`
 
@@ -848,3 +842,4 @@ Child menerima pesan: hai, anak sisop 24
 
 **Screenshot Hasil Output:**
 
+![Image](https://github.com/user-attachments/assets/95858aaf-95fa-4b0b-b92f-12b77df53714)
