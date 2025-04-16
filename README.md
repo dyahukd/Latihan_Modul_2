@@ -9,7 +9,7 @@
 
 ---
 
-https://github.com/dyahukd/Latihan_Modul_2/edit/main/README.md
+https://github.com/dyahukd/Latihan_Modul_2/blob/main/README.md
 
 ---
 
