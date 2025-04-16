@@ -418,8 +418,8 @@ thread 5 count 3
 3. Karena digunakan pthread_mutex, tidak ada konflik atau tumpang-tindih saat menulis ke file, meskipun thread berjalan secara paralel.
 4. Urutan thread bisa berbeda-beda setiap dijalankan karena eksekusi thread bersifat tidak deterministik.
 
-
-
+**Screenshot Hasil Output:**
+![Image](https://github.com/user-attachments/assets/b5b10bdd-a372-45ad-ae1e-42ce2fde2606)
 
 ### 🔹 4. IPC
 
